@@ -8,5 +8,8 @@ int func(String s) {
         int: answer
     """;
   //your code here
-  return -1;
+  return s.indexOf('*');
+}
+void main(){
+  print(func('2*43'));
 }
