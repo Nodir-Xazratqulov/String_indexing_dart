@@ -8,5 +8,8 @@ String func(String s) {
     """;
   //your code here
 
-  return ' ';
+  return s[0];
+}
+void main(){
+  print(func('Hello'));
 }
