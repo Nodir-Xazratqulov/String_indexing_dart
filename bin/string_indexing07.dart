@@ -8,5 +8,8 @@ String func(String s, int n) {
         str: answer
     """;
   //your code here
-  return '';
+  return s[n];
+}
+void main(){
+  print(func('hello', 2));
 }
