@@ -7,5 +7,8 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  return s.substring(0,3);
+}
+void main(){
+  print(func('hello world'));
 }
