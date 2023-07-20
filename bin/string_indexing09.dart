@@ -7,5 +7,9 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  return s.split('').reversed.join('');
+}
+
+void main(){
+  print(func('hello'));
 }
