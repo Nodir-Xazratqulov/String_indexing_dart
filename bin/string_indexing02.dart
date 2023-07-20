@@ -7,5 +7,9 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  return s[1];
+}
+
+void main(){
+  print(func('Hello'));
 }
