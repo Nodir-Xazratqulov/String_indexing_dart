@@ -8,5 +8,11 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  String a = s[0];
+  String b = s[s.length-1];
+  return a+b;
+}
+
+void main(){
+  print(func('good'));
 }
