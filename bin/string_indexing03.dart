@@ -7,5 +7,8 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  return s[s.length-1];
+}
+void main(){
+  print(func('Hello'));
 }
